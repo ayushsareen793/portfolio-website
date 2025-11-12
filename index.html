@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayush Sareen | Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Ayush Sareen</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="darkToggle">🌙</button>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Web Developer & Designer</h2>
+        <p>Crafting clean, user-friendly web experiences.</p>
+        <button onclick="scrollToSection('projects')">View Projects</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Ayush Sareen — a passionate and detail-oriented web developer who loves turning ideas into
+            interactive digital experiences. I specialize in building responsive, user-friendly websites and
+            applications using modern technologies like HTML, CSS, JavaScript, and React.
+
+            My journey into web development began with curiosity and grew into a full-fledged commitment to mastering
+            both frontend and backend skills. I enjoy solving problems, debugging code, and refining UI/UX to create
+            polished, real-world projects. Whether it's a music player, blog application, or travel log app, I strive to
+            make each project functional, elegant, and impactful.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3> Music Player</h3>
+            <p>Custom playlist navigation and playbar controls for seamless audio playback.</p>
+        </div>
+        <div class="project">
+            <h3> Travel Log App</h3>
+            <p>Interactive map and journal entries for global adventures.</p>
+        </div>
+        <div class="project">
+            <h3> Blog Application</h3>
+            <p>Full-stack blog with markdown support and user authentication.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Ayush Sareen. Built with enthusiasm</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
